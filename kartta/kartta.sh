@@ -30,6 +30,6 @@ for (( i = 0; i < ${imax}; i++ )); do
 done
 
 cd $workdir
-montage $all_tiles -tile ${imax}x${jmax} -border 0 -frame 0 -geometry +0+0 full_image.png
+montage $all_tiles -tile ${jmax}x${imax} -border 0 -frame 0 -geometry +0+0 full_image.png
 cd ..
 
